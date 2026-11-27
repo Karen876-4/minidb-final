@@ -1,0 +1,12 @@
+-- Dataset pequeño: 10 estudiantes
+CREATE TABLE estudiantes (id INT PRIMARY KEY, nombre TEXT, edad INT, nota REAL, activo BOOL)
+INSERT INTO estudiantes VALUES (50, 'Ana', 20, 4.5, true)
+INSERT INTO estudiantes VALUES (30, 'Luis', 22, 3.8, true)
+INSERT INTO estudiantes VALUES (70, 'Marta', 19, 4.9, false)
+INSERT INTO estudiantes VALUES (20, 'Pedro', 25, 3.2, true)
+INSERT INTO estudiantes VALUES (40, 'Sara', 21, 4.1, true)
+INSERT INTO estudiantes VALUES (60, 'Juan', 23, 3.5, false)
+INSERT INTO estudiantes VALUES (80, 'Laura', 20, 4.7, true)
+INSERT INTO estudiantes VALUES (10, 'Diego', 24, 2.9, true)
+INSERT INTO estudiantes VALUES (5, 'Camila', 18, 4.0, true)
+INSERT INTO estudiantes VALUES (3, 'Nico', 26, 3.0, false)
